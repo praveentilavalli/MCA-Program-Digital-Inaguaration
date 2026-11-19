@@ -1,0 +1,12 @@
+{
+  "name": "mca-inauguration-launch",
+  "version": "1.0.0",
+  "description": "Digital inauguration of the MCA Programme – phone remote triggers projector screen via Socket.IO",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1"
+  }
+}
